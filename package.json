@@ -1,0 +1,21 @@
+{
+  "name": "serverless-node-webpack-httpapi-example",
+  "version": "1.0.0",
+  "description": "Example Lambda function with HTTP API",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Wilcox",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "serverless-webpack": "^5.3.1",
+    "webpack": "^4.43.0"
+  }
+}
